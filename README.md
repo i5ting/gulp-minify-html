@@ -34,9 +34,11 @@ All options are `false` by default.
 * `empty` - do not remove empty attributes
 * `cdata` - do not strip CDATA from scripts
 * `comments` - do not remove comments
+* `ssi` - KEEP conditional internet explorer comments
 * `conditionals` - do not remove conditional internet explorer comments
 * `spare` - do not remove redundant attributes
 * `quotes` - do not remove arbitrary quotes
+* `loose` - KEEP one whitespace
 
 so setting `empty:true` is the same as telling `minifyHTML` "do not remove empty attributes."
 
